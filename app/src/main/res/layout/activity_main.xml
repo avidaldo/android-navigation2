@@ -7,13 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.fragment.app.FragmentContainerView
+
+    <!-- TODO: Gestionar cuando el fragment se carga sin argumentos -->
+<!--    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
 
-        android:name="com.example.myapplication.RedFragment" />
+        android:name="com.example.myapplication.RedFragment" />-->
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"
